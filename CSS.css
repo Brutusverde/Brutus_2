@@ -5,7 +5,7 @@ Página realizada por Diego López Navas
 html{
     height: 100%;
     /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
-    background: #1b2735;
+    background: #0c1118;
 }
 
 #stars{
@@ -592,9 +592,9 @@ html{
 .boxColor {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -110%);
-    width: 9vh;
-    height: 9vh;
+    transform: translate(-50%, -50%);
+    width: 15vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -603,6 +603,30 @@ html{
                 inset 0px -15px 15px rgba(255, 255, 255, 0.05),
                 0px 15px 15px rgba(0, 0, 0, 0.3),
                 inset 0px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.neon{
+    margin-top: 15vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    font-family: 'Wandertucker', sans-serif;
+    font-size: 80px;
+}
+
+.neon h2{
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff;
 }
 
 #logo{
@@ -616,6 +640,7 @@ html{
 
 #grid{
 
+    padding-top: 10vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -629,6 +654,8 @@ html{
     flex: 1;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 20px;
     font-family: 'Quicksand', sans-serif;
     background: rgba(225, 225, 225, 0.05);
