@@ -608,12 +608,11 @@ html{
 
 
 .neon{
-    margin-top: 15vh;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10vh;
+    padding-top: 30vh;
     padding-bottom: 10vh;
     left: 50%;
     transform: translate(-50%, -35%);
