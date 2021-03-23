@@ -12,6 +12,7 @@ var copyText;
 
 function but1(){
     window.alert("https://www.instagram.com/brutusverde/");
+    
 }
 
 ////////////////////////////////////////////////////////////////////////////

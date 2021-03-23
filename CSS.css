@@ -590,6 +590,7 @@ html{
 }
 
 .boxColor {
+    z-index: 1;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -605,6 +606,7 @@ html{
                 inset 0px 15px 15px rgba(0, 0, 0, 0.3);
 }
 
+
 .neon{
     margin-top: 15vh;
     position: absolute;
@@ -615,8 +617,32 @@ html{
     padding-bottom: 10vh;
     left: 50%;
     transform: translate(-50%, -35%);
-    font-family: 'Wandertucker', sans-serif;
+    font-family: 'Yellowtail', cursive;
     font-size: 80px;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff;
+}
+
+.neon2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    font-size: 80px;
+    color: #fff;
+    font-weight: 800;
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff;
 }
 
 .neon h2{
@@ -629,6 +655,9 @@ html{
                 0 0 120px #00b3ff;
 }
 
+
+
+
 #logo{
     width: 10vh;
     height: 10vh;
@@ -640,7 +669,7 @@ html{
 
 #grid{
 
-    padding-top: 10vh;
+    padding-top: 15vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
